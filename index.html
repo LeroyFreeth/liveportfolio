@@ -1,106 +1,142 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="freeth_portfolio.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - Leroy Freeth</title>
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script type="module" crossorigin src="/portfolio_hosted/assets/index-BV3_zcMK.js"></script>
-</head>
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-<body ondragstart="return false;" ondrop="return false;">
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a>
+					</nav>
 
-  <div id="home"></div>
-  <canvas id="app" class="three-js-ui"></canvas>
+				<!-- Main -->
+					<div id="main">
 
-  <div id="header" class="header left">
-    <nav id="nav">
-      <ul class="columns-4" style="position: absolute; top:0; left: 0; right: 0;">
-        <li class="vertical"><a id="home-button" href="#home">Home</a></li>
-        <li class="vertical"><a href="#portfolio">Portfolio</a></li>
-        <li class="vertical"><a href="#about">About</a></li>
-      </ul>
-    </nav>
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Jane Doe</h1>
+									<p>Senior Astral Projectionist</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
 
-    <div class="center columns-4" style="position: absolute; bottom:0; left: 0; right: 0;">
-      <a href="https://github.com/LeroyFreeth" class="icon brands fa-github padded-bottom"><span
-          class="label">Github</span></a>
-      <a href="mailto:ldfreeth@hotmail.com" class="icon solid fa-envelope padded-bottom"><span class="label">Email</span></a>
-    </div>
-  </div>
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
+									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+									luctus elit eget interdum.
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+							</article>
 
-  <section id="portfolio-controls" class="fader fade-out">
-    <button id="prev-texture-button" type="button">← Previous Image</button>
-    <button id="next-texture-button" type="button">→ Next Image</button>
-    <button id="return-to-portfolio-button" type="button">↑ Close</button>
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
 
-    <button id="prev-item-button" type="button">← Previous Project</button>
-    <button id="next-item-button" type="button">→ Next Project</button>
-  </section>
+					</div>
 
-  <div class="container right">
-    <section id="top-portfolio-info" class="three-js-ui fader fade-out mover move-up">
-      <header>
-        <h2>More more info.</h2>
-      </header>
-      <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac
-        in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo
-        blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-        vulputate lorem neque cubilia.</p>
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
 
-      <p>test</p>
+			</div>
 
-      <ul class="links">
-        <!-- Portfolio links will be inserted here at runtime-->
-      </ul>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-      <div id="video-preview" class="aspect-ratio hovereffect">
-        
-        <img class="pointer-auto title-holder" style='object-fit: contain;' src='' />
-        <div class="title">Play</div>
-      </div>
-      <div id="video-player" class="aspect-ratio">
-        <iframe class="aspect-ratio" allow="fullscreen" loading="lazy" width="420" height="315"
-        src=""></iframe>
-      </div>
-
-      <ul class="tags horizontal">
-        <!-- Portfolio tags will be inserted here at runtime-->
-      </ul>
-
-
-      </iframe>
-    </section>
-
-    <section id="portfolio" class="bottom pointer-none">
-      <div id="portfolio-item-content-container" class="container grid">
-        <!-- Portfolio items will be inserted here at runtime-->
-      </div>
-    </section>
-    <section id="portfolio-collapser" class="flex collapsible pointer-none"></section>
-
-    <section id="about" class="three-js-ui">
-      <div style="width: 60%">
-        <header>
-          <h2>Portfolio - Leroy Freeth</h2>
-        </header>
-
-        <p>Hello there! I'm a Game/Software developer with nearly 5 years of experience creating games and (web)applications. During my career I've worked with Unreal, Unity, BabylonJs and a little Godot. This comes with their associated coding languages, such as C++/Blueprints, C#, Js & Ts and GdScript.
-        </p>
-      </div>
-    </section>
-
-    <footer id="footer" class="bottom">
-      <div class="inner">
-        <ul class="copyright">
-          <li>&copy; Leroy Freeth</li>
-        </ul>
-      </div>
-    </footer>
-  </div>
-</body>
-
+	</body>
 </html>
